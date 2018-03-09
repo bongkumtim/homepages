@@ -6,7 +6,7 @@ class HomepagesController < ApplicationController
 	def pricing
 	end
 
-	def jv
+	def courses
 	end
 
 	def shopify

@@ -4,6 +4,6 @@ Rails.application.routes.draw do
 
   get 'pricing' => 'homepages#pricing'
   get '/index' => 'homepages#index'
-  get '/jv' => 'homepages#jv'
+  get '/courses' => 'homepages#courses'
   get '/shopify' => 'homepages#shopify'
 end
