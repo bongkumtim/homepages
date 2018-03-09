@@ -3,24 +3,43 @@
   <head>
     <title>MeLAB Global Sdn Bhd</title>
     <%= csrf_meta_tags %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="MeLAB Global Sdn Bhd" content="App and Web Developer">
+    <meta name="Bong Kum tim" content="CTO">
   </head>
 
   <body>
-      <nav class="site-header sticky-top py-1">
-      <div class="container d-flex flex-column flex-md-row justify-content-between">
-        <a class="py-2" href="/index">
-          MeLAB Global Sdn Bhd</svg>
-        </a>
-        <a class="py-2 d-none d-md-inline-block" href="#">About Us</a>
-        <a class="py-2 d-none d-md-inline-block" href="/shopify">Shopify Training</a>
-        <a class="py-2 d-none d-md-inline-block" href="/courses">Event and Courses</a>
-        <a class="py-2 d-none d-md-inline-block" href="#">Partners Name</a>
-        <a class="py-2 d-none d-md-inline-block" href="/pricing">Pricing</a>
-      </div>
-    </nav>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="/index">MeLAB Global Sdn Bhd</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/index">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/shopify">Shopify Training</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Partners</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/courses">Event & Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pricing">Pricing</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     <%= yield %>
 
        <footer class="container py-5">
