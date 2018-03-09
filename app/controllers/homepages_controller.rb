@@ -11,5 +11,8 @@ class HomepagesController < ApplicationController
 
 	def shopify
 	end
+
+	def documents
+	end
 	
 end

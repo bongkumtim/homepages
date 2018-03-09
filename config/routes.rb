@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get '/index' => 'homepages#index'
   get '/courses' => 'homepages#courses'
   get '/shopify' => 'homepages#shopify'
+  get '/documents' => 'homepages#documents'
 end
